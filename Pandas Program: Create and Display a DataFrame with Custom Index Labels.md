@@ -1,4 +1,4 @@
-# Pandas Program: Create and Display a DataFrame with Custom Index Labels
+# Pandas Program: Create and display a DataFrame with Custom Index Labels
 
 ## 🎯 Aim
 
@@ -17,8 +17,20 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+import numpy as np
+data = eval(input())
+labels=eval(input())
+df = pd.DataFrame(data, index=labels)
+print(df)
+```
 
 ## Output
+<img width="1266" height="424" alt="image" src="https://github.com/user-attachments/assets/83604258-586f-44a5-b655-4b7370101d2e" />
+<img width="1266" height="438" alt="image" src="https://github.com/user-attachments/assets/7f9059f3-48ce-4397-82c6-3a24dcc5f31c" />
+<img width="1261" height="442" alt="image" src="https://github.com/user-attachments/assets/ac1b52d8-d764-4400-9ce3-f77164677e43" />
+
 
 ## Result
+Thus, te program has been executed sucessfully 
