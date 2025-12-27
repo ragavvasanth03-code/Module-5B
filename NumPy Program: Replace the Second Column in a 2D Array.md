@@ -11,9 +11,18 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
+```
+import numpy as np
+arr = np.array( [[1,2,3],[4,5,6],[7,8,9]])
+new_col = np.array([10,11,12])
+arr_deleted = np.delete(arr, 1, axis=1)
+updated_arr = np.insert(arr_deleted, 1, new_col, axis=1)
+print("Updated Array:\n", updated_arr)
+```
 
-Add code here
+# Output
+<img width="418" height="217" alt="image" src="https://github.com/user-attachments/assets/30af96d3-407a-4e80-b701-0b26c861601a" />
 
-## Output
 
-## Result
+## Result'
+Thus, the program has been executed sucessfully 
